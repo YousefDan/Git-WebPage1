@@ -1,0 +1,46 @@
+/*Start navbar section styles*/
+.active{
+    border-bottom: 2px solid red;
+  }
+  .nav{
+    background-color: #FFF;
+    overflow: hidden;
+    box-shadow: 1px 1px 1px #efefef;
+    
+  }
+  .nav a{
+    float: right;
+    color: rgb(36, 36, 36);
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 16px;
+    transition: border-bottom .15s linear;
+  }
+  .nav a:hover{
+    border-bottom: 2px solid red;
+  }
+  .icon{
+    display: none;
+  }
+  @media only screen and (max-width:600px){
+    .nav a:not(:first-child){
+      display: none;
+    }
+    .nav a.icon{
+      display: block;
+      float: left;
+    }
+    .nav.responsive{
+      position: relative;
+    }
+    .nav.responsive a.icon{
+      position: absolute;
+      top:0 ;
+      left: 0;
+    }
+    .nav.responsive a{
+      float: none;
+      display: block;
+      text-align: right;
+    }
+  }

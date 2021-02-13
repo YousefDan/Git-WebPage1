@@ -1,0 +1,91 @@
+.faq-section-wrapper{
+    margin-top: 100px;
+}
+.faq-section-wrapper div h5 span::before{
+    content: '';
+    width: 32px;
+    height: 4px;
+    background-color: orange;
+    position: absolute;
+    top: 10px;
+    right: -42px;
+}
+.faq-section-wrapper div h5 span::after{
+    content: '';
+    width: 32px;
+    height: 4px;
+    background-color: orange;
+    position: absolute;
+    top: 10px;
+    left: -42px;
+}
+.faq-background{
+    background-image: url('../images/faq-bg.jpg');
+    height: auto;
+}
+.faq-right-side{
+    box-shadow: 1px 1px 5px 0px rgb(117 117 122);
+    min-height: 300px;
+    margin-top: 50px;
+    background-color: #ffffff;  
+    padding: 50px;
+}
+.faq-right-side i{
+    color: rgb(59, 59, 236);
+    font-size: 32px;
+    margin-left: 10px;
+    vertical-align: -5px;
+}
+.faq-right-side h6{
+    font-size: 16px;
+}
+.faq-right-side p{
+    font-size: 14px;
+    color: #969393;
+    margin: 10px;
+}
+.faq-right-side li{
+    margin-top: 20px;
+}
+
+/*left side*/
+.faq-left-side{
+    margin-top: 50px;
+    box-shadow: 0px 0px 5px 0px rgb(75, 73, 73);
+}
+.tab .tab-label{
+    background-color: rgb(59, 59, 236);
+    color: #ffffff;
+    display: block;
+    padding: 10px;
+    font-size: 14px;
+    
+}
+.tab .tab-label::after{
+    content: "\276f";
+    float: left;
+    transition: .5s linear;
+}
+
+.tab .tab-content{
+    font-size: 14px;
+    color: rgb(90, 86, 86);
+    background-color: #fff;
+    overflow: hidden;
+    height: 0;
+    transition: all .5s linear;
+}
+.tab input:checked ~ .tab-content{
+    height: 120px;
+    padding: 10px;
+    overflow: scroll;
+}
+.tab input{
+    display: none;
+}
+.tab input:checked + .tab-label::after{
+    transform: rotate(-90deg);
+}
+
+
+

@@ -1,0 +1,27 @@
+.stat-wrapper{
+    background-color: orange;
+    height: auto;
+    margin-top:100px;
+}
+.stat{
+    text-align: center;
+    margin: 30px 0;
+    border: 5px solid rgb(92, 87, 87);
+    border-radius: 20%;
+    padding: 20px 0;
+    transition: all .5s ease;
+}
+.stat:hover{
+    background-color: #fff;
+    cursor: pointer;
+    border: 5px solid rgb(134, 130, 130);
+
+}
+    
+.stat p:first-of-type{
+  font-size: 18px;
+  margin-top: 10px;
+}
+.stat p:last-of-type{
+    margin-top: 15px;
+}

@@ -1,0 +1,82 @@
+.topic{
+    background-image: url('../images/color-bg.png');
+    height: auto;
+    margin-top: 10px;
+}
+
+.topic-card{
+    box-shadow: 1px 1px 5px black;
+}
+.topic-date{
+    color: #ffffff;
+    bottom: 130px;
+    right: 10px;
+}
+.topic-date p:first-of-type{
+    background-color: orange;
+    text-align: center;
+    padding: 0 5px;
+}
+.topic-date p:last-of-type{
+    background-color: #b1a7a7;
+    padding: 0 5px;
+}
+.topic-card-body{
+    margin-top: 20px;
+}
+.topic-card-body a{
+    margin: 10px 5px;
+}
+.topic-card-body p{
+    font-size: 14px;
+    color: #777373;
+    margin: 10px 5px;
+}
+.topic-card-footer{
+    margin-top: 30px ;
+    color: rgb(112, 109, 109);
+}
+.topic-card-footer li{
+    display: inline-block;
+    margin-right: 30px;
+    margin-bottom: 15px;
+}
+.topic-card-footer i{
+    margin-left:3px ;
+}
+.topic-card-header{
+    overflow: hidden;
+}
+
+.topic-card-header img{
+    transition: transform 1s linear;
+    display: block;
+}
+.topic-card-header:hover img{
+  transform: rotate(20deg) scale(1.4);
+}
+.title-new-topics h4{
+    margin-bottom: 20px;
+}
+.title-new-topics h4 span::before{
+    content: "";
+    width: 32px;
+    height: 4px;
+    background-color: orange;
+    position: absolute;
+    top: 12px;
+    right: -40px;
+
+}
+.title-new-topics h4 span::after{
+    content: "";
+    width: 32px;
+    height: 4px;
+    background-color: orange;
+    position: absolute;
+    top: 12px;
+    left: -40px;
+
+}
+
+

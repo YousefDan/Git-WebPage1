@@ -1,0 +1,40 @@
+/*start contact and social-media section style*/
+
+.wrapper-contact_and_social-media{
+    background-color: rgb(12, 12, 184);
+    color: #ffffff;
+    height: 40px;
+}
+.wrapper-contact_and_social-media .contact{
+  font-size: 15px;
+}
+
+.wrapper-contact_and_social-media .contact i{
+ color: orange;
+ margin-right: 20px;
+ vertical-align: -10px;
+}
+
+.wrapper-contact_and_social-media .contact span{
+    color: #ffffff;
+    margin-left: 5px;
+}
+
+.social-media{
+    direction: ltr;
+    
+}
+
+.wrapper-contact_and_social-media .social-media i{
+    vertical-align: -6px;
+    padding: 12px;
+    width: 40px;
+    transition: background-color .5s linear;
+}
+.wrapper-contact_and_social-media .social-media a{
+    color: #ffffff;
+}
+
+.wrapper-contact_and_social-media .social-media i:hover{
+    background-color: orange;
+}

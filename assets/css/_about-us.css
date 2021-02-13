@@ -1,0 +1,43 @@
+.about-us-title h5 span::before{
+   content: '';
+    position: absolute;
+    width: 32px;
+    height: 4px;
+    background-color: orange;
+    top: 8px;
+    right: -40px;
+}
+.about-us-title h5 span::after{
+    content: '';
+     position: absolute;
+     width: 32px;
+     height: 4px;
+     background-color: orange;
+     top: 8px;
+     left: -40px;
+ }
+ .about-us-left-side{
+     width: 100%;
+     height: auto;
+     background-color: #ccc4c4;
+     padding: 20px;
+ }
+ .about-us-left-side h4{
+     border-bottom: 1px solid #837d7d;
+     padding-bottom: 10px;
+ }
+ .about-us-left-side p{
+     padding:10px;
+     text-align: justify;
+ }
+ .about-us-left-side a{
+     background-color: orange;
+     color:#FFFFFF;
+     padding: 10px; 
+     transition: all 1s linear ; 
+ }
+ .about-us-left-side a:hover{
+   border-radius: 0px 10px;
+   color: orange;
+   background-color: white;
+ }

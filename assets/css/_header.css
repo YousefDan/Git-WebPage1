@@ -1,0 +1,40 @@
+.img-header{
+    min-height: 85vh;
+}
+
+.overlay-img{
+    width:100%;
+    height: 100%;
+    background-color: rgba(20, 20, 20, 0.3);
+}
+.header-title{
+    color: #FFF;
+    max-width: 400px;
+    margin: 250px;
+}
+.header-title a{
+   background-color: orange;
+   padding: 5px 10px;
+   border-radius: 4px;
+   color: #FFF;
+   float: left;
+}
+
+@media screen and (max-width:1200px){
+    .header-title{
+        width: 100%;
+        margin: 0;
+        background-color: rgba(255, 255, 255, 0.5);
+        color: #000000;
+        padding: 20px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        border-radius: 5px;
+        
+    }
+    .overlay,.img-header{
+        min-height: 100%;
+    }
+}

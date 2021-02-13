@@ -1,0 +1,58 @@
+@import '_contant.css';
+@import '_navbar.css';
+@import '_header.css';
+@import "_courses.css";
+@import "_about-us.css";
+@import "_teacher.css";
+@import "_stat.css";
+@import "_topic.css";
+@import "_faq.css";
+@import "_footer.css";
+@font-face{
+  font-family: vazir;
+  src: url('../fonts/Vazir-Medium.eot') format('eot'),
+  url('../fonts/Vazir-Medium.woff') format('woff'),
+  url('../fonts/Vazir-Medium.woff2') format('woff2');
+}
+
+a{
+  text-decoration: none;
+}
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: vazir;
+}
+li{
+  list-style-type: none;
+}
+
+/*utilities*/
+.p0{
+  padding: 0!important;
+}
+.absolute{
+  position: absolute;
+}
+.relative{
+  position: relative;
+}
+.mb-20{
+  margin-bottom: 20px;
+}
+.mt-20{
+  margin-top: 20px;
+}
+.center-text{
+  text-align: center;
+}
+.left-text{
+  text-align: left;
+}
+.mt-200{
+  margin-top: 200px;
+}
+
+
+
